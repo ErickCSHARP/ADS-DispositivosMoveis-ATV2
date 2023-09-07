@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/image"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Título Principal"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:id="@+id/textoNome"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subtitulo Principal"
+                android:textColor="#a9a9a9"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:id="@+id/textoProfissao"/>
+            <LinearLayout
+                android:id="@+id/containerDetelhes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textoIdade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="Idade 45 anos"
+                    android:textAlignment="textEnd"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/textoDescricao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lorem_ipsum"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>

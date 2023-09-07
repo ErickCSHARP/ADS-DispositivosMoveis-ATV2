@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textbox_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/border_textbox</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="label_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/colorSecondaryVariant</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+</resources>

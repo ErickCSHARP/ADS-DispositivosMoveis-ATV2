@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nomes">
+        <item>Bibliotecário</item>
+        <item>Arquivista</item>
+        <item>Documentalista</item>
+        <item>Historiador</item>
+        <item>Professor de Biblioteconomia</item>
+        <item>Curador de Biblioteca</item>
+        <item>Arqueólogo</item>
+        <item>Conservador de Acervo</item>
+        <item>Escritor</item>
+        <item>Pesquisador de História</item>
+    </string-array>
+    <string-array name="profissoes">
+        <item>Bibliotecário</item>
+        <item>Arquivista</item>
+        <item>Documentalista</item>
+        <item>Historiador</item>
+        <item>Professor de Biblioteconomia</item>
+        <item>Curador de Biblioteca</item>
+        <item>Arqueólogo</item>
+        <item>Conservador de Acervo</item>
+        <item>Escritor</item>
+        <item>Pesquisador de História</item>
+    </string-array>
+    <string-array name="idades">
+        <item>Bibliotecário</item>
+        <item>Arquivista</item>
+        <item>Documentalista</item>
+        <item>Historiador</item>
+        <item>Professor de Biblioteconomia</item>
+        <item>Curador de Biblioteca</item>
+        <item>Arqueólogo</item>
+        <item>Conservador de Acervo</item>
+        <item>Escritor</item>
+        <item>Pesquisador de História</item>
+    </string-array>
+    <string-array name="descricoes">
+        <item>Bibliotecário</item>
+        <item>Arquivista</item>
+        <item>Documentalista</item>
+        <item>Historiador</item>
+        <item>Professor de Biblioteconomia</item>
+        <item>Curador de Biblioteca</item>
+        <item>Arqueólogo</item>
+        <item>Conservador de Acervo</item>
+        <item>Escritor</item>
+        <item>Pesquisador de História</item>
+    </string-array>
+</resources>

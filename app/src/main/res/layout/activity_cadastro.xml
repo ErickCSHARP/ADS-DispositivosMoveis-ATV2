@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorOnSurfaceInverse"
+    tools:context=".CadastroActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="#17421E65"
+        android:drawableLeft="@drawable/icon_return_24"
+        android:drawablePadding="4dp"
+        android:drawableTint="@color/black"
+        android:fontFamily="@font/big_shoulders_text_medium"
+        android:paddingVertical="15dp"
+        android:text="Voltar"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:onClick="voltarClick"
+        android:textSize="26dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1334dp"
+        android:layout_weight="1"
+        android:background="?attr/colorOnSurfaceInverse"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        tools:context=".CadastroActivity">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/bg_photo"
+            android:backgroundTint="#D3D3D3">
+
+            <ImageView
+                android:id="@+id/imagem"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:onClick="image_click"
+                android:scaleType="centerCrop"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:src="@drawable/add_photo_24"
+                app:tint="#919191" />
+
+            <TextView
+                android:id="@+id/label_imagem"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="20dp"
+                android:paddingHorizontal="20dp"
+                android:text="Clique aqui para incluir uma imagem"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/label_style"
+            android:text="@string/label_nome" />
+
+        <EditText
+            android:id="@+id/cad_nome"
+            style="@style/textbox_style" />
+
+        <TextView
+            style="@style/label_style"
+            android:text="@string/label_idade" />
+
+        <EditText
+            android:id="@+id/cad_idade"
+            style="@style/textbox_style"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/label_style"
+            android:text="@string/label_profissao" />
+
+        <Spinner
+            android:id="@+id/cad_profissao"
+            style="@style/textbox_style" />
+
+        <TextView
+            style="@style/label_style"
+            android:text="@string/label_resumo" />
+
+        <EditText
+            android:id="@+id/cad_resumo"
+            
+            style="@style/textbox_style"
+            android:layout_height="200dp" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="30dp"
+            android:drawableTint="@color/white"
+            android:drawableLeft="@drawable/icon_save_24"
+            android:drawablePadding="0dp"
+            android:scaleType="fitCenter"
+            android:paddingVertical="15dp"
+            android:onClick="salvarClick"
+            android:text="Salvar"
+            app:tint="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
